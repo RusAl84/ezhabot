@@ -3,7 +3,7 @@ import os
 from fuzzywuzzy import fuzz
 # Создаем бота, пишем свой токен
 # bot = telebot.TeleBot('Здесь твой токен, полученный от @botfather')
-bot = telebot.TeleBot('5111904045:AAGYb83-gjCD0JqsKbRZCRCd-WDP1UYhTCA')
+bot = telebot.TeleBot('5982175377:AAH4V5oGT1kmyCKnrLo--w9RHvEJLW7DI9s')
 # Загружаем список фраз и ответов в массив
 mas=[]
 if os.path.exists('data.txt'):

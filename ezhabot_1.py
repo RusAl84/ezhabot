@@ -1,6 +1,6 @@
 import telebot;
 
-bot = telebot.TeleBot('5111904045:AAGYb83-gjCD0JqsKbRZCRCd-WDP1UYhTCA');
+bot = telebot.TeleBot('5982175377:AAH4V5oGT1kmyCKnrLo--w9RHvEJLW7DI9s');
 
 
 @bot.message_handler(content_types=['text'])
