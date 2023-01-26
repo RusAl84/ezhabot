@@ -5,12 +5,12 @@ def load_data():
     content = ""
     with open('categories.json', 'r', encoding='utf-8') as f:
         content = f.read()
-    print(content)
+    # print(content)
     categories = json.loads(content)
     content = ""
     with open('sub_categories.json', 'r', encoding='utf-8') as f:
         content = f.read()
-    print(content)
+    # print(content)
     sub_categories = json.loads(content)
     return categories, sub_categories
 
